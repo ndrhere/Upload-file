@@ -44,7 +44,7 @@ function FileUpload() {
   return (
     <div>
       <div className="d-flex my-3" style={{justifyContent:"center", alignItems: "center"}}>
-      <input className="my-3 " type="file" style={{marginLeft:"25px"}} onChange={handleFileUpload} />
+      <input className="my-3 " type="file" style={{marginLeft:"19px"}} onChange={handleFileUpload} />
       </div>
       
       {data.length > 0 && (
